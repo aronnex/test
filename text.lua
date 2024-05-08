@@ -250,3 +250,5 @@ local function selfCheck()
     end
         print("自检通过")
 end
+
+selfCheck()
