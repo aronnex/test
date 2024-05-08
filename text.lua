@@ -174,7 +174,7 @@ function MatchQueue:new()
     matchQueue.queue = {}
     matchQueue.groups = {}
     return matchQueue
-End
+end
 
 function MatchQueue:AddPlayer(player)
     table.insert(self.queue, player)
